@@ -23,7 +23,7 @@ https://github.com/explosion/spaCy/pull/1882
 ## Training results:
 
 
-| Itn. | P.Loss | N.Loss | UAS | NER P. | NER R. | NER F. | Tag % | Token % |
+| Itn. | P.Loss | N.Loss | UAS | NER P. | NER R. | NER F. | Tag % | Token % | na | na |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 500.962 | 0.000 | 83,67 | 0.000 | 0.000 | 0.000 | 93,269 | 100.000 | 3542.9 | 0.0 |
 | 1 | 86.554 | 0.000 | 86,38 | 0.000 | 0.000 | 0.000 | 94,396 | 100.000 | 3767.6 | 0.0 |
