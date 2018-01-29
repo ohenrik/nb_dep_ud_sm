@@ -1,4 +1,4 @@
-# Norwegian (Bokmål) language model for Spacy
+# Experimental Norwegian (Bokmål) language model for Spacy
 
 This model is based of the Norwegian Universal dependency dataset that can
 be found here:

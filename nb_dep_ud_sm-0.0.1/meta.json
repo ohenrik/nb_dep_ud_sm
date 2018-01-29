@@ -1,0 +1,35 @@
+{
+  "lang":"nb",
+  "name":"dep_ud_sm",
+  "author":"Ole Henrik Skogstr\u00f8m",
+  "email":"henrik@amplify.no",
+  "description":"Based on data from:\n  https://github.com/UniversalDependencies/UD_Norwegian-Bokmaal\n\n  And updated norwegian language package from this pull request:\n  https://github.com/explosion/spaCy/pull/1882\n\n  Trained using no_bokmaal-ud-train.conllu and no_bokmaal-ud-dev.conllu\n\n  With hyperparameters:\n  batch_from=16 batch_to=64 spacy train nb ... etc...\n\n  So its probably room for improvement. I would also like to improve the\n  lemmatizer and othe language features.\n  ",
+  "url":"https://github.com/ohenrik/nb_core_ud",
+  "license":"Creative Commons Attribution-ShareAlike 4.0 International license",
+  "pipeline":[
+    "tagger",
+    "parser",
+    "ner"
+  ],
+  "accuracy":{
+    "uas":88.7195264794,
+    "las":85.3430369665,
+    "ents_p":0.0,
+    "ents_r":0.0,
+    "ents_f":0.0,
+    "tags_acc":95.1387170392,
+    "token_acc":100.0
+  },
+  "speed":{
+    "nwords":36369,
+    "cpu":3298.1201071728,
+    "gpu":null
+  },
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0
+  },
+  "spacy_version":">=2.0.5",
+  "version":"0.0.1"
+}

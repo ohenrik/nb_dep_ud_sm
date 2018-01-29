@@ -1,0 +1,23 @@
+Metadata-Version: 1.0
+Name: nb-dep-ud-sm
+Version: 0.0.1
+Summary: Based on data from:
+  https://github.com/UniversalDependencies/UD_Norwegian-Bokmaal
+
+  And updated norwegian language package from this pull request:
+  https://github.com/explosion/spaCy/pull/1882
+
+  Trained using no_bokmaal-ud-train.conllu and no_bokmaal-ud-dev.conllu
+
+  With hyperparameters:
+  batch_from=16 batch_to=64 spacy train nb ... etc...
+
+  So its probably room for improvement. I would also like to improve the
+  lemmatizer and othe language features.
+  
+Home-page: https://github.com/ohenrik/nb_core_ud
+Author: Ole Henrik Skogstrøm
+Author-email: henrik@amplify.no
+License: Creative Commons Attribution-ShareAlike 4.0 International license
+Description: UNKNOWN
+Platform: UNKNOWN
