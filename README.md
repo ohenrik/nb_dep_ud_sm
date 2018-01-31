@@ -20,6 +20,22 @@ package for Spacy. It should now be a part of the master branch,
 but the Pull request can be found here:
 https://github.com/explosion/spaCy/pull/1882
 
+## Installation
+
+To install the package use this command:
+
+`pip install https://github.com/ohenrik/nb_dep_ud_sm/raw/master/nb_dep_ud_sm-0.0.1/dist/nb_dep_ud_sm-0.0.1.tar.gz`
+
+# Usage
+
+```
+import spacy
+nb = spacy.load("nb_dep_ud_sm")
+
+doc = nb("Det er kaldt på vinteren i Norge.")
+```
+
+
 ## Training results:
 
 
